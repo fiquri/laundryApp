@@ -2195,7 +2195,8 @@ body > ion-nav-view.view-container {
   width: 328px;
   height: 536px;
   margin-top: 104px;
-  margin-left: 33px; }
+  margin-left: 33px;
+  overflow: hidden; }
 
 .active .modal-backdrop-bg {
   opacity: 0; }

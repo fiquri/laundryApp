@@ -1,0 +1,13 @@
+<ion-view view-title="History">
+  <ion-content ng-controller="historyController">
+  	<div class="ek-grid--item" ng-repeat="history in histories">
+  		<a href="#/app/outlet-info/{{history.id}}">
+         <img ng-src="assets/img/{{history.banner}}">
+         <div class="ek-grid__overlay">
+         	<h3>{{history.title}}</h3>
+         	<span>No. Ticket {{history.transaksi}}</span>
+         </div>
+         </a>
+     </div>
+  </ion-content>
+</ion-view>
