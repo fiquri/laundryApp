@@ -1,0 +1,124 @@
+$container-default-width: 1340px;
+$padding-default : 15px;
+$nav-height : 60px;
+$nav-background : #fafafa;
+$btn-bg-color : #48bcf3;
+$btn-color: #fff;
+$small-size: 15px;
+$small-line-height:14px;
+$small-color: #404040;
+$heading-color-default: #1a1a1a;
+$h4: 22px;
+$h3: 36px;
+$h4-line-height: 14px;
+$h3-line-height: 0.4;
+$h5: 20px;
+$h5-line-height: 14px;
+$main-pad-top: 35px;
+$thumb-font-size : 14px;
+$thumb-heading-pop-size : 15px;
+$thumb-heading-pop-color : #48bcf3;
+$thumb-font-space:0.2px;
+$thumb-pop-color: #404040;
+$thumb-text-bottom: 10px;
+$cover-thumb-height: 140px;
+$cover-feed-height: 118px;
+$row-margin-default : $padding-default;
+$foot-height : 48px;
+$foot-margin-top: 35px;
+$foot-pad: 17px;
+
+
+
+$font-regular: 400 ;
+$font-bold: 700 ;
+
+/*color*/
+$text-default-color: #5e5a5b;
+$text-invert-color: #acacac;
+$text-nav-default-color : #38040b;
+$text-color-sm : #090102;
+$title-color-bold : $text-color-sm;
+$verified : #197b30;
+$bg-color-default : #fdfdfe;
+$bg-color-invert : $text-color-sm;
+$heading-color: $bg-color-invert;
+$link-default-color: $text-default-color; 
+
+$box-color : #f5f1f2;
+$box-border-color : #eee3e4;
+$heading-border : #e1d9da;
+$tag-bg: #f3f3f6;
+$tag-color: #f70c4b;
+$bookmark-bg : #7b7878;
+$in-bg: #4949b4;
+$fb-bg: #003471;
+$link-bg : #d7d7d7;
+$log-pass-color: #f70c4b;
+$log-picked-color: #f70c4b;
+$log-added-color: #e9298f;
+$log-viewed-color: #10c41d;
+$log-update-color: #171516;
+$circle-border :#334565;
+$label-title : $btn-bg-color;
+$nav-notif-circle : #22e354;
+$nav-hover-color : $btn-bg-color;
+$nav-color-default : #38040b;
+$nav-bg-accordion-default : #fafafa;
+$nav-bg-accordion-people : $box-color;
+$nav-bg-accordion-panel : $box-color;
+
+
+
+/*font*/
+$font-size-vsm: 12px;
+$font-size-sm: 14px;
+$font-size-default: 16px;
+$font-size-md : 24px;
+$line-height-default : $font-size-default + 10px;
+$line-height-sm : $font-size-sm + 4px;
+$line-height-md : $font-size-default + 10px;
+$h1: 90px;
+$h2: 48px;
+$h3: 36px;
+
+
+$h6: 16px;
+$h1-line-height: $h1 - 10px;
+$h2-line-height: $h2 + 10px;
+$h3-line-height: $h3 + 10px;
+$h6-line-height: $h6 + 10px;
+$h-margin-top :0;
+
+/*button*/
+$btn-lg-padding : 13px 95px;
+
+/*content*/
+$p-margin-btm : 40px;
+$p-label-btm : 20px;
+
+/*image*/
+$pic-width : 175px;
+$pic-height : 175px;
+$logo-width: 47px;
+$logo-height : 44px;
+
+/*container unit*/
+$col-profile-right: 410px;
+$col-profile-left: -webkit-calc(100% - 410px);
+$cover-height : 362px;
+$carousel-default-height : 243px;
+$box-primary-padding : 23px 26px;
+$box-default-padding : 23px 26px;
+$box-chart-padding : 23px 0px;
+$box-cta-padding : 30px 26px;
+$box-people-padding: 26px;
+$box-share-padding : 8px 26px;
+
+/*NAV*/
+
+
+/*header*/
+$header-margin-btm: 40px;
+
+/*footer*/

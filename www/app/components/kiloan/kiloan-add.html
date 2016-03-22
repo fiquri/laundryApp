@@ -1,0 +1,32 @@
+<ion-modal-view >
+  <ion-header-bar>
+    <h1 class="title">Add Info</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="kiloanClose()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content ng-controller="kiloanController as a">
+    <div class="ek-info--item">
+      <img ng-src="assets/img/tshirt.jpg" alt="tshirt">
+      <h2>Tshirt</h2>
+      <p>Lorem Ipsum</p>
+    </div>
+    <form ng-submit="kiloanAdd()">
+      <div class="list">
+        <div class="ek-info__select">
+          <select ng-init="formData.type='Tshirt'" ng-model="formData.type">
+            <option value="Jacket">Jacket</option>
+            <option value="Tshirt">Tshirt</option>
+            <option value="Jeans">Jeans</option>
+          </select>
+        </div>
+        <div class="ek-info__qty">
+          <input type="number" min="0" ng-init="formData.qty=1" placeholder="Input Number" ng-model="formData.qty">
+        </div>
+        <label class="item">
+          <button class="button button-block button-positive" type="submit">Submit</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-modal-view>

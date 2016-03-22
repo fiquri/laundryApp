@@ -1,0 +1,16 @@
+<ion-view view-title="Map {{histories[id].title}}" 
+  <ion-content ng-controller="MapCtrl" >
+    <div id="map" ng-init="init()" data-tap-disabled="true"></div>
+    <div class="ek-map__caption">
+    	<div class="ek-map__head">
+    		<img src="assets/img/{{histories[id].banner}}">
+    	</div>
+    	<div class="ek-map__text">
+    		<h1>{{histories[id].title}}</h1>
+    		<span>{{histories[id].country}}</span>
+    		<h4>Estimated Price : {{histories[id].price}}</h4>
+    		<button>ok</button>
+    	</div>
+    </div>
+  </ion-content>
+</ion-view>

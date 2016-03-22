@@ -1,0 +1,41 @@
+.ek-home__caption{
+	    height: 100%;
+    padding-top: 80%;
+}
+.ek-home__action{
+	height: 100%;
+    background: #fff;
+}
+.ek-home__choice{
+	display: block;
+    width: 100%;
+    height: 50.5%;
+    background: white;
+    color: #ccc;
+    text-decoration: none;
+    &:nth-child(2){
+    	.ek-choice__img{
+    		top: 10px;
+	    	bottom: 5px;
+	    	left: auto;
+	    	right: 0;
+	    	@include transform(translateX(50%));
+	    }
+    }
+}
+.ek-choice__item{
+	position: relative;
+    padding: 30px 50px;
+    height: 100%;
+}
+.ek-choice__img{
+	position: absolute;
+    top: 5px;
+    bottom: 10px;
+    height: 100%;
+    left: 0;
+    @include transform(translateX(-50%));
+}
+.ek-choice__caption{
+	text-align: center;
+}

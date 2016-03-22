@@ -1,0 +1,23 @@
+.ek-avatar{
+	text-align: center;
+	padding-bottom: 40px;
+	img{
+		width: 64px;
+		height: 64px;
+	}
+	h1{
+		margin-top: 0;
+		font-size: 24px;
+	}
+}
+
+.item-complex .item-content{
+	padding: 16px 30px;
+}
+.ek-setting-icon{
+	position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 9;
+    font-size: 20px;
+}

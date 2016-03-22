@@ -1,0 +1,23 @@
+.ek-info{
+    height: 100%;
+}
+.ek-info__header{
+    height: 60%;
+    position: relative;
+    img{
+            height: 100%;
+    width: 100%;
+    object-fit: none;
+    }
+}
+.ek-info__caption{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    *{
+    color: #fff;
+}
+}
+.ek-info__detail{
+    text-align: center;
+}

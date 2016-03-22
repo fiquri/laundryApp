@@ -1,0 +1,65 @@
+.ek-index{
+	position: relative;
+    height: 100%;
+    overflow: hidden;
+    >img{
+    	    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    }
+}
+.ek-index__caption{
+	text-align: center;
+}
+.ek-form-signUp{
+	position: absolute;
+  top: 40%;
+  @include transform(translateY(-50%)); 
+  width: 100%;
+  .list-inset{
+    background-color: transparent;
+  }
+  .item, select{
+    background: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 10px;
+    color: #ddd;
+    -webkit-text-fill-color: #ddd;
+    -moz-text-fill-color: #ddd;
+    -o-text-fill-color: #ddd;
+   text-fill-color: #ddd;
+  }
+  .input-label{
+    text-align: left;
+  }
+}
+.ek-index__quote{
+	position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    h4{
+    	color: #fff;
+    	&:before{
+    		content: open-quote;
+    	}
+    	&:after{
+    		content: close-quote;
+    	}
+    }
+}
+.ek-index__action{
+	position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    a{
+    	color: #ddd;
+    	text-decoration: none;
+    }
+}

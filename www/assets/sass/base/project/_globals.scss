@@ -1,0 +1,108 @@
+
+html{
+	width: 380px;
+    height: 810px;
+    margin: auto;
+    background: url("http://ionicframework.com/img/phone-case.png") no-repeat right top;
+}
+body > ion-nav-view.view-container{
+	       width: 328px;
+    height: 576px;
+        margin-top: 104px;
+    margin-left: 33px;
+}
+.active .modal-backdrop-bg {
+    opacity: 0;
+}
+.modal {
+    top: 104px;
+    right: auto;
+    bottom: 0;
+    left: 526px;
+    min-height: 240px;
+    width: 328px;
+}
+.ek-opt--btn{
+	bottom: 40px !important;
+}
+.scroll{
+	height: 100%;
+}
+.none{
+	display: none;
+}
+*[view-title="Home"] .has-header{
+	top: 0;
+}
+.bar.bar-transparent{
+	background-image: none;
+	background-color: transparent;
+}
+.bar.bar-border-btm{
+	border-bottom: 1px solid;
+	border-color: #ddd;
+}
+.overlay{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+    z-index: -2;
+    &.black{
+    	z-index: 0;
+    }
+}
+.ek-grid--item{
+	height: 33%;
+	position: relative;
+	img{
+		height: 100%;
+		width: 100%;
+	}
+	h3{
+		margin: 0;
+	}
+	span{
+		color: black;
+	}
+}
+.ek-grid__overlay{
+	z-index: 9;
+	padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(225,225,225,.8);
+}
+#map{
+	height: 100%;
+}
+.ek-map__caption{
+	position: absolute;
+    top: 40px;
+    left: 25px;
+    right: 25px;
+    padding-bottom: 20px;
+    background: #fff;
+}
+.ek-map__head{
+	img{
+		width: 100%;
+    height: 200px;
+	}
+}
+.ek-map__text{
+	text-align: center;
+	h1{
+		margin: 0;
+	}
+	button{
+		background: transparent;
+    border: 0;
+    color: lightblue;
+    font-size: 27px;
+	}
+}

@@ -1,0 +1,45 @@
+<ion-view view-title="Sign Up">
+  <ion-content>
+  	<div class="bar bar-header bar-positive bar-transparent bar-border-btm">
+      <h1 class="title">Sign Up</h1>
+    </div>
+  	<div class="ek-index">
+    	<div class="overlay black"></div>
+    	<img ng-src="assets/img/laundry-saloon-567951_960_720.jpg" alt="index-bg">
+    	<figcaption class="ek-index__caption">
+    		<div class="ek-form-signUp">
+    			<div class="list list-inset">
+				  <label class="item item-input">
+				    <input type="text" placeholder="Name">
+				  </label>
+				  <label class="item item-input">
+				    <input type="email" placeholder="Email Address">
+				  </label>
+				   <label class="item item-input">
+				    <input type="password" placeholder="Choose a Password">
+				  </label>
+				   <label class="item item-input">
+				    <input type="date" placeholder="Birth Date">
+				  </label>
+				   <label class="item item-input item-select">
+				    <div class="input-label">
+				      Gender
+				    </div>
+				   	<select>
+				   		<option>Male</option>
+				   		<option>Female</option>
+				   	</select>
+				  </label>
+				  <label class="item item-input">
+				    <input type="text" placeholder="Phone Number">
+				  </label>
+				</div>
+    		</div>
+    		<div class="ek-index__action">
+    			<button class="button button-block button-outline button-light" ng-click="none()" ui-sref="app.home">Submit</button>
+    			<a ui-sref="signIn">Already Have an Account?</a>
+    		</div>
+    	</figcaption>
+    </div>
+  </ion-content>
+</ion-view>

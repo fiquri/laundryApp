@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Eka</title>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" media="all">
+    <link href="assets/lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="assets/lib/ionic/js/ionic.bundle.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?sensor=true">
+    </script>
+
+    
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="app/app.module.js"></script>
+    <script src="app/app.directive.js"></script>
+    <script src="app/controllers.js"></script>
+    <script src="app/components/kiloan/kiloanServices.js"></script>
+    
+    <script src="app/components/kiloan/kiloanController.js"></script>
+
+  </head>
+
+  <body ng-app="starter">
+    <ion-nav-view></ion-nav-view>
+    <ion-nav-view name="single" class="ek-single"></ion-nav-view>
+  </body>
+</html>
