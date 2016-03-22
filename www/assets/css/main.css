@@ -2193,7 +2193,7 @@ html {
 
 body > ion-nav-view.view-container {
   width: 328px;
-  height: 576px;
+  height: 536px;
   margin-top: 104px;
   margin-left: 33px; }
 
@@ -2207,9 +2207,6 @@ body > ion-nav-view.view-container {
   left: 526px;
   min-height: 240px;
   width: 328px; }
-
-.ek-opt--btn {
-  bottom: 40px !important; }
 
 .scroll {
   height: 100%; }
